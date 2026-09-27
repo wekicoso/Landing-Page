@@ -1,7 +1,57 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
+/* Setting every margin and padding to 0 at the beginning of the project */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    height: 70px;
+    background-color: #1F2937;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+#item-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0 10px;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 10px 30px;
+}
+
+#item-nav {
+    display: flex;
+    align-items: stretch;
+    column-gap: 10px;
+}
+
+#item-nav a {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #F9FAF8;
+}
+
+#item-nav a:hover {
+    background-color: #344257;
+}
+
+#item-nav li {
+    list-style-type: none;
+    font-size: 18px;
 }
