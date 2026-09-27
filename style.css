@@ -163,3 +163,26 @@ body {
     border-radius: 25px;
     border: 2px solid #1F2937;
 }
+
+/* Quote section */
+
+.quote-section {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    row-gap: 5px;
+}
+
+.big-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+}
