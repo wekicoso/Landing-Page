@@ -71,7 +71,7 @@ body {
     background-color: #1F2937;
 }
 
-/* Hero section styling */
+/* Hero section */
 
 
 .hero-section {
@@ -92,7 +92,7 @@ body {
     row-gap: 10px;
 }
 
-img {
+.hero-section .image img {
     width: 350px;
     height: 220px;
     display: flex;
@@ -119,4 +119,47 @@ img {
     margin-bottom: 10px;
     font-weight: 900;
     border-radius: 10px;
+}
+
+/* Inromation section */
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 0 50px 40px 50px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.instruction-field {
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.instructions img {
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+    border: 2px solid #1F2937;
 }
