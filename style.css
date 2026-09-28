@@ -16,8 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: stretch;
-    width: 900px;
+    width: 1100px;
 }
 
 /* Header stiling */
@@ -79,7 +78,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     column-gap: 10px;
-    padding: 40px 50px;
+    padding: 80px 50px;
     flex-wrap: wrap;
 }
 
@@ -116,9 +115,13 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 5px 30px;
-    margin-bottom: 10px;
     font-weight: 900;
     border-radius: 10px;
+    border: 0px;
+}
+
+.hero-section .button {
+    margin-bottom: 10px;
 }
 
 /* Inromation section */
@@ -127,7 +130,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 50px;
+    padding: 80px 50px;
 }
 
 .heading {
@@ -167,7 +170,7 @@ body {
 /* Quote section */
 
 .quote-section {
-    padding: 40px 50px;
+    padding: 80px 130px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -176,6 +179,7 @@ body {
 
 .big-quote {
     font-size: 36px;
+    line-height: 1.5;
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
@@ -185,4 +189,51 @@ body {
     align-self: flex-end;
     font-weight: 900;
     font-size: 24px;
+}
+
+/* Call to action section */
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 65px 50px;
+    padding: 80px 40px;
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.call-to-action button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F9FAF8;
+}
+
+.call-to-action .text {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.call-to-action .text span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 15px;
+    background-color: #1F2937;
+    padding: 10px 50px;
+    color: white;
 }
